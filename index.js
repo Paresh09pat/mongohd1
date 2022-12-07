@@ -7,9 +7,9 @@ async function main(){
     await client.connect();
 console.log('client connected...');
 
-    const database = client.db('Human_Resource');
+    const database = client.db('Practice');
 
-   const customer=  database.collection('employee');
+   const customer=  database.collection('For_Paresh');
 
    const customerData = await customer.findOne({
 "firstName":"Jame",
